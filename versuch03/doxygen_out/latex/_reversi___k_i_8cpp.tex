@@ -1,0 +1,46 @@
+\hypertarget{_reversi___k_i_8cpp}{\section{Reversi\-\_\-\-K\-I.\-cpp File Reference}
+\label{_reversi___k_i_8cpp}\index{Reversi\-\_\-\-K\-I.\-cpp@{Reversi\-\_\-\-K\-I.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}Reversi\-\_\-\-K\-I.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{_reversi___k_i_8cpp_abc856bca74fb081e1a6703227217f64d}{int {\bfseries possible\-\_\-turns} (const int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player)}\label{_reversi___k_i_8cpp_abc856bca74fb081e1a6703227217f64d}
+
+\item 
+\hypertarget{_reversi___k_i_8cpp_a2495c6f2402435b226c6f06785e7d091}{void {\bfseries execute\-\_\-turn} (int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player, const int pos\-\_\-x, const int pos\-\_\-y)}\label{_reversi___k_i_8cpp_a2495c6f2402435b226c6f06785e7d091}
+
+\item 
+\hypertarget{_reversi___k_i_8cpp_afbf34a9e8028eb4911abf42d6dee0dea}{bool {\bfseries turn\-\_\-valid} (const int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player, const int pos\-\_\-x, const int pos\-\_\-y)}\label{_reversi___k_i_8cpp_afbf34a9e8028eb4911abf42d6dee0dea}
+
+\item 
+bool \hyperlink{_reversi___k_i_8cpp_a2493087dfe8f9e58555eb20a03d941d6}{computer\-\_\-turn} (int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides a K\-I for the game Reversi. 
+
+\subsection{Function Documentation}
+\hypertarget{_reversi___k_i_8cpp_a2493087dfe8f9e58555eb20a03d941d6}{\index{Reversi\-\_\-\-K\-I.\-cpp@{Reversi\-\_\-\-K\-I.\-cpp}!computer\-\_\-turn@{computer\-\_\-turn}}
+\index{computer\-\_\-turn@{computer\-\_\-turn}!Reversi_KI.cpp@{Reversi\-\_\-\-K\-I.\-cpp}}
+\subsubsection[{computer\-\_\-turn}]{\setlength{\rightskip}{0pt plus 5cm}bool computer\-\_\-turn (
+\begin{DoxyParamCaption}
+\item[{int}]{field\mbox{[}\-S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}\-S\-I\-Z\-E\-\_\-\-X\mbox{]}, }
+\item[{const int}]{player}
+\end{DoxyParamCaption}
+)}}\label{_reversi___k_i_8cpp_a2493087dfe8f9e58555eb20a03d941d6}
+A function which provides a K\-I for the game Reversi
+
+
+\begin{DoxyParams}{Parameters}
+{\em field} & The field on which the K\-I is going to play. \\
+\hline
+{\em player} & The player number of the K\-I \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if a turn was executed. False if no turn is possible. 
+\end{DoxyReturn}

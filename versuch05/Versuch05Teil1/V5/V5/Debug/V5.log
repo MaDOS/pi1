@@ -1,0 +1,28 @@
+﻿Der Buildvorgang wurde am 21.05.2015 18:46:27 gestartet.
+     1>Projekt "E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\V5\V5.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Debug\V5.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\ListElem.cpp ..\..\Stack.cpp ..\..\main.cpp
+         ListElem.cpp
+         Code wird generiert...
+         Kompilieren...
+         Stack.cpp
+         Code wird generiert...
+         Überspringen... (keine relevanten Änderungen gefunden)
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\Debug\V5.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\V5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\Debug\V5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\Debug\V5.lib" /MACHINE:X86 Debug\ListElem.obj
+         Debug\main.obj
+         Debug\Stack.obj
+         V5.vcxproj -> E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\Debug\V5.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\Debug\V5.exe;#1" /manifest Debug\V5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei "Debug\V5.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Debug\V5.lastbuildstate".
+     1>Die Erstellung des Projekts "E:\Docs\Uni\GGI\versuch05\Versuch05Teil1\V5\V5\V5.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:01.15

@@ -1,0 +1,1 @@
+void togglePlayer(int &player);

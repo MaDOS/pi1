@@ -1,0 +1,57 @@
+\hypertarget{main_8cpp}{\section{main.\-cpp File Reference}
+\label{main_8cpp}\index{main.\-cpp@{main.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}test.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}config.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_aacdbfaa6045beffcf99b25f92f979b29}{show\-\_\-field} (const int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]})
+\item 
+int \hyperlink{main_8cpp_ad4e85a4813dd17886bcb1704ffa49bca}{winner} (const int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]})
+\item 
+\hypertarget{main_8cpp_afbf34a9e8028eb4911abf42d6dee0dea}{bool {\bfseries turn\-\_\-valid} (const int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player, const int pos\-\_\-x, const int pos\-\_\-y)}\label{main_8cpp_afbf34a9e8028eb4911abf42d6dee0dea}
+
+\item 
+\hypertarget{main_8cpp_a2495c6f2402435b226c6f06785e7d091}{void {\bfseries execute\-\_\-turn} (int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player, const int pos\-\_\-x, const int pos\-\_\-y)}\label{main_8cpp_a2495c6f2402435b226c6f06785e7d091}
+
+\item 
+\hypertarget{main_8cpp_abc856bca74fb081e1a6703227217f64d}{int {\bfseries possible\-\_\-turns} (const int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player)}\label{main_8cpp_abc856bca74fb081e1a6703227217f64d}
+
+\item 
+\hypertarget{main_8cpp_aeffc62e7a3a7a5ff8ce5d25398cc9ec9}{bool {\bfseries human\-\_\-turn} (int field\mbox{[}S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}S\-I\-Z\-E\-\_\-\-X\mbox{]}, const int player)}\label{main_8cpp_aeffc62e7a3a7a5ff8ce5d25398cc9ec9}
+
+\item 
+\hypertarget{main_8cpp_ada18ae7147c91f4ac04cb70aa85fb861}{void {\bfseries game} (const int playertyp\mbox{[}2\mbox{]})}\label{main_8cpp_ada18ae7147c91f4ac04cb70aa85fb861}
+
+\item 
+\hypertarget{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{int {\bfseries main} (void)}\label{main_8cpp_a840291bc02cba5474a4cb46a9b9566fe}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides functions for the game Reversi 
+
+\subsection{Function Documentation}
+\hypertarget{main_8cpp_aacdbfaa6045beffcf99b25f92f979b29}{\index{main.\-cpp@{main.\-cpp}!show\-\_\-field@{show\-\_\-field}}
+\index{show\-\_\-field@{show\-\_\-field}!main.cpp@{main.\-cpp}}
+\subsubsection[{show\-\_\-field}]{\setlength{\rightskip}{0pt plus 5cm}void show\-\_\-field (
+\begin{DoxyParamCaption}
+\item[{const int}]{field\mbox{[}\-S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}\-S\-I\-Z\-E\-\_\-\-X\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_aacdbfaa6045beffcf99b25f92f979b29}
+Displays field
+
+Displays field with X for player 1 and O for player 2 \hypertarget{main_8cpp_ad4e85a4813dd17886bcb1704ffa49bca}{\index{main.\-cpp@{main.\-cpp}!winner@{winner}}
+\index{winner@{winner}!main.cpp@{main.\-cpp}}
+\subsubsection[{winner}]{\setlength{\rightskip}{0pt plus 5cm}int winner (
+\begin{DoxyParamCaption}
+\item[{const int}]{field\mbox{[}\-S\-I\-Z\-E\-\_\-\-Y\mbox{]}\mbox{[}\-S\-I\-Z\-E\-\_\-\-X\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ad4e85a4813dd17886bcb1704ffa49bca}
+!...Counts all points and returns the winner
+
+...Return 0 for draw; 1 for player 1 wins; 2 for player 2 wins 

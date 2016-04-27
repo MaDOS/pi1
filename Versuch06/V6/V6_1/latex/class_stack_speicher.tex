@@ -1,0 +1,115 @@
+\hypertarget{class_stack_speicher}{}\section{Stack\+Speicher$<$ size, T $>$ Class Template Reference}
+\label{class_stack_speicher}\index{Stack\+Speicher$<$ size, T $>$@{Stack\+Speicher$<$ size, T $>$}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_stack_speicher_af6924ed80e8519855a3307d4f887b92b}{}\hyperlink{class_stack_speicher_af6924ed80e8519855a3307d4f887b92b}{Stack\+Speicher} ()\label{class_stack_speicher_af6924ed80e8519855a3307d4f887b92b}
+
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_speicher_ad4e07c4f0d95692aa757b87e42907622}{push} (const T \&e)
+\begin{DoxyCompactList}\small\item\em Function to push an Element. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_speicher_ad46546f6e554a33f72f37f99ae9bb1f7}{pop} (T \&e)
+\begin{DoxyCompactList}\small\item\em Function to retriev an Element from the Stack. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_speicher_a5fee58ad92ef29024d73bd9f2dcf33c0}{quick\+\_\+sort} (int l, int r)
+\begin{DoxyCompactList}\small\item\em Sorts \hyperlink{class_stack_speicher}{Stack\+Speicher} using recursive quick-\/sort. \end{DoxyCompactList}\item 
+int \hyperlink{class_stack_speicher_a82244bc656520b9b7062760711b09699}{partition} (int l, int r)
+\begin{DoxyCompactList}\small\item\em Partition function used by quicksort implementation. \end{DoxyCompactList}\item 
+void \hyperlink{class_stack_speicher_a065be1c2184e6db1c757d9be5e70c296}{exchange} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Exchanges two values in Stack (used by quick-\/sort) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_stack_speicher_a065be1c2184e6db1c757d9be5e70c296}{}\index{Stack\+Speicher@{Stack\+Speicher}!exchange@{exchange}}
+\index{exchange@{exchange}!Stack\+Speicher@{Stack\+Speicher}}
+\subsubsection[{exchange}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int size, class T $>$ void {\bf Stack\+Speicher}$<$ size, T $>$\+::exchange (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\label{class_stack_speicher_a065be1c2184e6db1c757d9be5e70c296}
+
+
+Exchanges two values in Stack (used by quick-\/sort) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & index of value 1 \\
+\hline
+{\em j} & index of value 2 \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stack_speicher_a82244bc656520b9b7062760711b09699}{}\index{Stack\+Speicher@{Stack\+Speicher}!partition@{partition}}
+\index{partition@{partition}!Stack\+Speicher@{Stack\+Speicher}}
+\subsubsection[{partition}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int size, class T $>$ int {\bf Stack\+Speicher}$<$ size, T $>$\+::partition (
+\begin{DoxyParamCaption}
+\item[{int}]{l, }
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)}\label{class_stack_speicher_a82244bc656520b9b7062760711b09699}
+
+
+Partition function used by quicksort implementation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & left boundary of the current array partition \\
+\hline
+{\em r} & right boundary of the current array partition \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stack_speicher_ad46546f6e554a33f72f37f99ae9bb1f7}{}\index{Stack\+Speicher@{Stack\+Speicher}!pop@{pop}}
+\index{pop@{pop}!Stack\+Speicher@{Stack\+Speicher}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int size, class T $>$ void {\bf Stack\+Speicher}$<$ size, T $>$\+::pop (
+\begin{DoxyParamCaption}
+\item[{T \&}]{e}
+\end{DoxyParamCaption}
+)}\label{class_stack_speicher_ad46546f6e554a33f72f37f99ae9bb1f7}
+
+
+Function to retriev an Element from the Stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Position to save the Element \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stack_speicher_ad4e07c4f0d95692aa757b87e42907622}{}\index{Stack\+Speicher@{Stack\+Speicher}!push@{push}}
+\index{push@{push}!Stack\+Speicher@{Stack\+Speicher}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int size, class T $>$ void {\bf Stack\+Speicher}$<$ size, T $>$\+::push (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{e}
+\end{DoxyParamCaption}
+)}\label{class_stack_speicher_ad4e07c4f0d95692aa757b87e42907622}
+
+
+Function to push an Element. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Element to save \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_stack_speicher_a5fee58ad92ef29024d73bd9f2dcf33c0}{}\index{Stack\+Speicher@{Stack\+Speicher}!quick\+\_\+sort@{quick\+\_\+sort}}
+\index{quick\+\_\+sort@{quick\+\_\+sort}!Stack\+Speicher@{Stack\+Speicher}}
+\subsubsection[{quick\+\_\+sort}]{\setlength{\rightskip}{0pt plus 5cm}template$<$int size, class T $>$ void {\bf Stack\+Speicher}$<$ size, T $>$\+::quick\+\_\+sort (
+\begin{DoxyParamCaption}
+\item[{int}]{l, }
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)}\label{class_stack_speicher_a5fee58ad92ef29024d73bd9f2dcf33c0}
+
+
+Sorts \hyperlink{class_stack_speicher}{Stack\+Speicher} using recursive quick-\/sort. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & left boundary of the current array partition \\
+\hline
+{\em r} & right boundary of the current array partition \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Stack\+Speicher.\+h\end{DoxyCompactItemize}
